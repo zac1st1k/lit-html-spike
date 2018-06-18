@@ -4,11 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Title of the document</title>
+
+  <!-- <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script> -->
+  <script src="https://unpkg.com/skatejs-web-components/dist/index.min.js"></script>
+  <script src="dist/app.bundle.js"></script>
 </head>
 
 <body>
-  Content of the document......
-  <script src="build/main.bundle.js"></script>
+  <p>Content of the document&hellip;</p>
+
+  <with-default name="default-render"></with-default>
+  <with-lit-html name="skate-lit-html"></with-lit-html>
 </body>
 
 </html>

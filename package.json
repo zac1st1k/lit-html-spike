@@ -2,7 +2,6 @@
   "name": "lit-html-spike",
   "version": "1.0.0",
   "scripts": {
-    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
     "start": "http-server",
     "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +9,13 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "http-server": "^0.11.1",
     "babel-preset-es2015": "^6.24.1",
     "webpack": "^3.12.0"
   },
   "dependencies": {
-    "http-server": "^0.11.1",
-    "lit-html": "^0.10.2"
+    "@skatejs/renderer-lit-html": "^0.2.0",
+    "lit-html": "^0.10.2",
+    "skatejs": "^5.1.3"
   }
 }
